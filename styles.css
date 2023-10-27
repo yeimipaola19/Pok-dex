@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    transition: all 0.9s ease-in-out;
+}
+
+body{
+    background-image: url(./img/body_bg.png);
+}
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1pc;
+}
+
+nav{
+    background-color: #232323;
+    margin-bottom: 1pc;
+    justify-content: space-between;
+    padding: 0 1pc;
+    height: 5pc;
+    color: white;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav img{
+    width: 13pc;
+    text-align: center
+}
+
+nav ul li{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+.Card {
+    width: 30%;
+    display: inline-block;
+    margin: 1pc;
+    width: 19pc;
+    background-color: #232323;
+    border-radius: 10px;
+    overflow-x: auto;
+    flex-wrap: nowrap;
+}
+
+.number{
+    border-radius: 10px;
+    background-color: #fff;
+    opacity: 0.09;
+    position: relative;
+    height: 14pc;
+    font-size: 7pc;
+    font-family: fantasy;
+    text-align: center;
+    transition: all 0.6 ease-in-out;
+    position: relative;
+}
+
+.number:hover{
+    opacity: 1;
+    font-size: 9pc;
+}
+
+.number img{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    transition: all 1s ease-in-out;
+    width: 13pc;
+}
+
+.number:hover img{
+    width: 17pc;
+}
+
+.ContainerInfo{
+    border-radius: 10px;
+    background-color: #232323;
+    color: white;
+}
+
+.centrar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+    gap: 1pc;
+    height: 3pc;
+    padding: 0 1pc;
+}
